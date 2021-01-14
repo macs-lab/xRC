@@ -1,5 +1,5 @@
 % =================================================
-% RC_DOB: repetitive control via DOB structure
+% RC_DOB: repetitive control via the DOB structure
 % algorithms:   youla equivalence
 %               IMP
 %               diophantine eq
@@ -7,20 +7,9 @@
 % Ref:
 %       RC_DOB.m
 % =================================================
-% 2011-09-18 Xu Chen xuchen@cal.berkeley.edu
+% 2011-09-18 Xu Chen chx@uw.edu
 % ============================================================
-%   Copyright (c) 2008-, Xu Chen, xuchen@cal.berkeley.edu
-%   Author(s): Xu Chen
-% ============================================================
-% =================================================
-% Multiple Narrow Band disturbance rejection
-% Iternal Model Principle(IMP) + DOB + RLS approach
-% Ref: Indirect Adaptive Compensation of Multiple Narrow Band Disturbances
-% based on Internal Model Principle and Disturbance Observer
-% =================================================
-% 2009-12-22 Xu Chen xuchen@cal.berkeley.edu
-% ============================================================
-%   Copyright (c) 2008-, Xu Chen, xuchen@cal.berkeley.edu
+%   Copyright (c) 2008-, Xu Chen, chx@uw.edu
 %   Author(s): Xu Chen
 % ============================================================
 folder = fileparts(which(mfilename));
@@ -264,7 +253,7 @@ for kkk = 1:2
                 end
                 sim(SimModel,Tsim);
                 etime = toc;
-                idxt = find(PESDataT.time >= 10e-3);        % 10msˆÈ?~
+                idxt = find(PESDataT.time >= 10e-3);        
                 PES  = PESDataT.signals.values(idxt)*1e2;	% [%TP]
                 if close_figure, close, end
                 [rpe,nrpe,val] = PES_PlotTD(PES,num_servo,'%TP');

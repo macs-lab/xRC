@@ -1,7 +1,6 @@
 % Feedback controllers for MNB Dist Rej
-% maxchen 2010-01-18
 % ============================================================
-%   Copyright (c) 2008-, Xu Chen, xuchen@cal.berkeley.edu
+%   Copyright (c) 2008-, Xu Chen, chx@uw.edu
 %   Author(s): Xu Chen
 % ============================================================
 folder = fileparts(which(mfilename));

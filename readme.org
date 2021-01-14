@@ -1,0 +1,14 @@
+* Simulation for Enhanced Repetitive Control algorithm
+Major Versions: 2013-11-16
+Author(s): Xu Chen, chx@uw.edu
+
+This is the company code package for the following paper
+
+[1] X. Chen and M. Tomizuka, "New Repetitive Control with Improved Steady-state Performance and Accelerated Transient," IEEE Transactions on Control Systems Technology, vol. 22, no. 2, pp. 664-675 (12 pages), Mar. 2014, doi:10.1109/TCST.2013.2253102
+
+In repetitive control (RC), the enhanced servo performance at the fundamental frequency and its higher order harmonics is usually followed by undesired error amplifications at other frequencies. In this paper, we discuss a new structural configuration of the internal model in RC, wherein designers have more flexibility in the repetitive loop-shaping design, and the amplification of nonrepetitive errors can be largely reduced. Compared to conventional RC, the proposed scheme is especially advantageous when the repetitive task is subject to large amounts of nonperiodic disturbances. An additional benefit is that the transient response of this plug-in RC can be easily controlled, leading to an accelerated transient with reduced overshoots. Verification of the algorithm is provided by simulation of a benchmark regulation problem in hard disk drives, and by tracking-control experiments on a laboratory testbed of an industrial wafer scanner.
+
+** Run "main_RC_DOB.m" to start the program
+
+** Required software
+MATLAB and A proper C compiler for MATLAB

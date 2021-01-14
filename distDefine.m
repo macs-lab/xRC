@@ -3,7 +3,7 @@
 % load mainDistDataV1;
 % revo = 30;
 % ============================================================
-%   Copyright (c) 2008-, Xu Chen, xuchen@cal.berkeley.edu
+%   Copyright (c) 2008-, Xu Chen, chx@uw.edu
 %   Author(s): Xu Chen
 % ============================================================
 % 2010-11-17 :
