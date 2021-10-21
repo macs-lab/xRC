@@ -2,7 +2,7 @@
 Major Versions: 2013-11-16
 Author(s): Xu Chen, chx@uw.edu
 
-This is the company code package for the following paper
+This is the companion code package for the following paper
 
 [1] X. Chen and M. Tomizuka, "New Repetitive Control with Improved Steady-state Performance and Accelerated Transient," IEEE Transactions on Control Systems Technology, vol. 22, no. 2, pp. 664-675 (12 pages), Mar. 2014, doi:10.1109/TCST.2013.2253102
 
@@ -11,4 +11,4 @@ In repetitive control (RC), the enhanced servo performance at the fundamental fr
 ** Run "main_RC_DOB.m" to start the program
 
 ** Required software
-MATLAB and A proper C compiler for MATLAB
+MATLAB and a proper C compiler for MATLAB
